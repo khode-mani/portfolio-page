@@ -16,6 +16,7 @@ ul , li{
     list-style: none;
     font-size: 10px;
     text-align: center;
+    z-index: 10;
 }
 li{
     padding: 10px;
@@ -26,6 +27,8 @@ li{
 }
 a{
     /* text-decoration: none; */
+    width: 110px;
+    display: inline-block;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
@@ -33,6 +36,7 @@ a{
 a:hover{
     color: black;
     background-color: rgba(128, 128, 128, 0.507);
+    width: 110px;
     transition: all .5s ease;
 }
 .desc{
